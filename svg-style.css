@@ -1,15 +1,21 @@
-.pedal {
-  animation-name: drift;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+@keyframes grassMove {
+  from {transform: translateX(0px);}
+  to {transform: translateX(60px);}
 }
 
-@keyframes drift {
-  from {
-    transform: translate(0px, 0px);
-  }
-  to {
-    transform: translate(128px, 150px);
-  }
+@keyframes cloudMove {
+  from {transform: translateX(0px);}
+  to {transform: translateX(120px);}
+}
+
+.grass {
+    animation-name: grassMove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+
+.cloud {
+    animation-name: cloudMove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
 }
