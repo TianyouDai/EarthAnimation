@@ -5,3 +5,4 @@ An animation of rotating Earth using Figma, SVG, and CSS.
 [View Demo](https://tianyoudai.github.io/EarthAnimation/index.html)
 
 
+
