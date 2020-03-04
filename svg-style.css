@@ -12,10 +12,12 @@
     animation-name: grassMove;
     animation-duration: 5s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .cloud {
     animation-name: cloudMove;
     animation-duration: 5s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
